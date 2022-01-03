@@ -98,7 +98,7 @@ pipeline {
             steps {
                 git credentialsId: 'git',
                 url: 'https://github.com/matanbedani/pipeline.git',
-                branch: $BRANCH_NAME
+                branch: "${BRANCH_NAME}"
             }
         }
 
