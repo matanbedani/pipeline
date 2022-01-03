@@ -106,7 +106,7 @@ pipeline {
             steps {
                 script{
                     sh "sed 's/{WEB_CONTENT}}/${web_content[0..-2]}/' index.html"
-                    sh "docker build --build-arg 'TAG=${app_verssion[0..-2]}' -t matanbedani/jenkins:$BUILD_NUMBER ."
+                    sh "docker build --build-arg 'TAG=${app_version[0..-2]}' -t matanbedani/jenkins:$BUILD_NUMBER ."
                 }
             }
         }
