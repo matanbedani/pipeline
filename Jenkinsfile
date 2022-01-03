@@ -86,7 +86,7 @@ pipeline {
 		registryCredential = "docker"
 	}
 	
-    agent master
+    agent any
 
     stages { 
 		stage('Clean workspace') {
