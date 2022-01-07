@@ -128,18 +128,5 @@ pipeline {
         }
     }
         
-//         stage('Deploy kubernetes') {
-//             steps {
-//                 script {
-// <<<<<<< HEAD
-//                     kubernetesDeploy(configs: "deploy.yaml", kubeconfigId: "kubernetes")  
-//                 }    
-//             }  
-//         } 
-// =======
-//                        kubernetesDeploy(configs: "deploy.yaml", kubeconfigId: "kubernetes")  
-//                 }    
-//             }  
-//          } 
-// >>>>>>> e5820b59349b322c97968927d91d8ddc5e7c65ce
-// }
+
+}
